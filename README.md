@@ -129,7 +129,7 @@ After verifying connectivity between Mumbai and Ireland VPCs, perform the follow
 
 **Soumyajit Saha**  
 *Aspiring AWS & DevOps Engineer*  
-🔗 [LinkedIn](www.linkedin.com/in/soumyajitoncloud9) | [GitHub](https://github.com/SoumyajitOnCloud9/VPC-Bridge/tree/main)
+🔗 [LinkedIn](https://www.linkedin.com/in/soumyajit-saha-5a8932282/) | [GitHub](https://github.com/SoumyajitOnCloud9/VPC-Bridge/tree/main)
 
 ---
 ## 🏷️ License
