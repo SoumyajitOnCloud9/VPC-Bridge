@@ -7,7 +7,7 @@ The setup enables **secure private communication** between EC2 instances across 
 
 ## 🧩 Architecture Overview
 
-![VPC Peering Architecture](./VPC Peering.png)
+![VPC Peering Architecture](./VPCPeering.png)
 
 ### 🏗️ VPC Details
 
@@ -23,8 +23,8 @@ The setup enables **secure private communication** between EC2 instances across 
 ### 1️⃣ Create VPCs Using CloudFormation
 
 * Deploy two CloudFormation stacks:
-  * **Mumbaivpcsetup** → `192.168.0.0/16`
-  * **Irelandvpcsetup** → `192.169.0.0/16`
+  * **Mumbaivpcsetup** → `192.168.0.0/16` — [![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SoumyajitOnCloud9/VPC-Bridge/blob/main/Mumbaivpcsetup.yml)
+  * **Irelandvpcsetup** → `192.169.0.0/16` — [![View Repo](https://img.shields.io/badge/View%20Repo-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SoumyajitOnCloud9/VPC-Bridge/blob/main/Irelandvpcsetup.yml)
 * Each stack provisions VPC, subnets, route tables, IGW, and NAT Gateway.
 
 ---
@@ -132,3 +132,14 @@ After verifying connectivity between Mumbai and Ireland VPCs, perform the follow
 🔗 [LinkedIn](#) | [GitHub](#)
 
 ---
+## 🏷️ License
+
+Licensed for **educational & demo purposes**.  
+Feel free to fork and adapt for your own AWS DevOps learning path.  
+
+---
+
+
+🌟 **Like what you see?** Give this repo a star and share it with fellow cloud enthusiasts!  
+☁️ **More AWS projects are on the way — stay connected!**
+
