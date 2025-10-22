@@ -91,6 +91,20 @@ Paste the Ireland PEM key to allow SSH access from MumbaiDB-Server.
 
 ---
 
+### 🌍 Extending Connectivity to On-Premises Networks
+
+In real-world enterprise environments, organizations often need to connect their **on-premises data centers** to AWS VPCs for hybrid cloud architectures.  
+To achieve secure and reliable connectivity from your company network to AWS, you need the following components:
+
+1. **Customer Gateway (CGW)** — Represents your on-premises router or firewall that connects to AWS.  
+2. **Virtual Private Gateway (VGW)** — AWS-side gateway attached to your VPC that enables VPN connectivity.  
+3. **Site-to-Site VPN Connection** — Establishes an encrypted IPsec tunnel between your CGW and VGW, allowing secure data transfer between on-premises and AWS environments.
+
+> 💡 **Note:**  
+> Combining **VPC Peering** (for inter-VPC communication) with **Site-to-Site VPNs** (for hybrid connectivity) creates a robust and scalable multi-environment network topology — often used in corporate and production-grade setups.
+
+---
+
 ## 🧹 Effective Cleanup Steps
 
 Cleanup is a **critical step** in any AWS project to ensure that no unnecessary resources continue to incur costs or cause configuration conflicts.  
